@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://rdohms.github.io/food
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: make food -k -i
+subtitle: The Gastronomical Adventures of a Developer
+author: Rafael Dohms
 simple_search: http://google.com/search
-description:
+description: "After my wife suffered an accident, I found myself piloting out stove, after the shock passed and her recovery went on, I found myself actually loving to cook. This blog is a collection of recipes and my adventures in the kitchen, descovering a new activity and a new bonding experience with my wife."
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -26,7 +26,7 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /food
 permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
@@ -63,13 +63,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: rdohms
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: rdohms
 twitter_tweet_button: true
 
 # Google +1
